@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript">
+        function codeAddress() {
+ 	random = Math.floor(Math.random() * 13) + 1;
+	document.getElementById("img").src=random + ".jpg";
+	document.getElementById("noot").src=random + ".mp3";
+	document.getElementById("demo").innerHTML = "Welke noot is het?";
+        }
+        window.onload = codeAddress;
+</script>
+<body>
+<style>
+p {
+  font-family: Tahoma, Verdana, sans-serif;
+}
+.center {
+  margin: auto;
+}
+.button {
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #04AA6D;
+}
+
+.button1:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+<script type="text/javascript">
+    function checka(a) {
+        if (random == 3) {document.getElementById("demo").innerHTML = "Goed, het was een A";}
+	else if (random == 10) {document.getElementById("demo").innerHTML = "Goed, het was een A";}
+	else if (random == 4) {document.getElementById("demo").innerHTML = "Fout, het was een B";}
+	else if (random == 5) {document.getElementById("demo").innerHTML = "Fout, het was een C";}
+	else if (random == 6) {document.getElementById("demo").innerHTML = "Fout, het was een D";}
+	else if (random == 7) {document.getElementById("demo").innerHTML = "Fout, het was een E";}
+	else if (random == 8) {document.getElementById("demo").innerHTML = "Fout, het was een F";}
+	else if (random == 9) {document.getElementById("demo").innerHTML = "Fout, het was een G";}
+	else if (random == 1) {document.getElementById("demo").innerHTML = "Fout, het was een F";}
+	else if (random == 2) {document.getElementById("demo").innerHTML = "Fout, het was een G";}
+	else if (random == 11) {document.getElementById("demo").innerHTML = "Fout, het was een B";}
+	else if (random == 12) {document.getElementById("demo").innerHTML = "Fout, het was een C";}
+	else if (random == 13) {document.getElementById("demo").innerHTML = "Fout, het was een D";}
+	setTimeout(() => {
+	newrandom = Math.floor(Math.random() * 13) + 1;
+	while (newrandom == random)	{
+		newrandom = Math.floor(Math.random() * 13) + 1;
+		}
+	random = newrandom;
+	document.getElementById("img").src=random + ".jpg";
+	document.getElementById("noot").src=random + ".mp3";
+		}, 2000);
+	}
+    function checkb(a) {
+        if (random == 3) {document.getElementById("demo").innerHTML = "Fout, het was een A";}
+	else if (random == 10) {document.getElementById("demo").innerHTML = "Fout, het was een A";}
+	else if (random == 4) {document.getElementById("demo").innerHTML = "Goed, het was een B";}
+	else if (random == 5) {document.getElementById("demo").innerHTML = "Fout, het was een C";}
+	else if (random == 6) {document.getElementById("demo").innerHTML = "Fout, het was een D";}
+	else if (random == 7) {document.getElementById("demo").innerHTML = "Fout, het was een E";}
+	else if (random == 8) {document.getElementById("demo").innerHTML = "Fout, het was een F";}
+	else if (random == 9) {document.getElementById("demo").innerHTML = "Fout, het was een G";}
+	else if (random == 1) {document.getElementById("demo").innerHTML = "Fout, het was een F";}
+	else if (random == 2) {document.getElementById("demo").innerHTML = "Fout, het was een G";}
+	else if (random == 11) {document.getElementById("demo").innerHTML = "Goed, het was een B";}
+	else if (random == 12) {document.getElementById("demo").innerHTML = "Fout, het was een C";}
+	else if (random == 13) {document.getElementById("demo").innerHTML = "Fout, het was een D";}
+	setTimeout(() => {
+	newrandom = Math.floor(Math.random() * 13) + 1;
+	while (newrandom == random)	{
+		newrandom = Math.floor(Math.random() * 13) + 1;
+		}
+	random = newrandom;
+	document.getElementById("img").src=random + ".jpg";
+	document.getElementById("noot").src=random + ".mp3";
+		}, 2000);
+	    }
+    function checkc(a) {
+	if (random == 3) {document.getElementById("demo").innerHTML = "Fout, het was een A";}
+	else if (random == 10) {document.getElementById("demo").innerHTML = "Fout, het was een A";}
+	else if (random == 4) {document.getElementById("demo").innerHTML = "Fout, het was een B";}
+	else if (random == 5) {document.getElementById("demo").innerHTML = "Goed, het was een C";}
+	else if (random == 6) {document.getElementById("demo").innerHTML = "Fout, het was een D";}
+	else if (random == 7) {document.getElementById("demo").innerHTML = "Fout, het was een E";}
+	else if (random == 8) {document.getElementById("demo").innerHTML = "Fout, het was een F";}
+	else if (random == 9) {document.getElementById("demo").innerHTML = "Fout, het was een G";}
+	else if (random == 1) {document.getElementById("demo").innerHTML = "Fout, het was een F";}
+	else if (random == 2) {document.getElementById("demo").innerHTML = "Fout, het was een G";}
+	else if (random == 11) {document.getElementById("demo").innerHTML = "Fout, het was een B";}
+	else if (random == 12) {document.getElementById("demo").innerHTML = "Goed, het was een C";}
+	else if (random == 13) {document.getElementById("demo").innerHTML = "Fout, het was een D";}
+	setTimeout(() => {
+	newrandom = Math.floor(Math.random() * 13) + 1;
+	while (newrandom == random)	{
+		newrandom = Math.floor(Math.random() * 13) + 1;
+		}
+	random = newrandom;
+	document.getElementById("img").src=random + ".jpg";
+	document.getElementById("noot").src=random + ".mp3";
+		}, 2000);
+	    }
+    function checkd(a) {
+	if (random == 3) {document.getElementById("demo").innerHTML = "Fout, het was een A";}
+	else if (random == 10) {document.getElementById("demo").innerHTML = "Fout, het was een A";}
+	else if (random == 4) {document.getElementById("demo").innerHTML = "Fout, het was een B";}
+	else if (random == 5) {document.getElementById("demo").innerHTML = "Fout, het was een C";}
+	else if (random == 6) {document.getElementById("demo").innerHTML = "Goed, het was een D";}
+	else if (random == 7) {document.getElementById("demo").innerHTML = "Fout, het was een E";}
+	else if (random == 8) {document.getElementById("demo").innerHTML = "Fout, het was een F";}
+	else if (random == 9) {document.getElementById("demo").innerHTML = "Fout, het was een G";}
+	else if (random == 1) {document.getElementById("demo").innerHTML = "Fout, het was een F";}
+	else if (random == 2) {document.getElementById("demo").innerHTML = "Fout, het was een G";}
+	else if (random == 11) {document.getElementById("demo").innerHTML = "Fout, het was een B";}
+	else if (random == 12) {document.getElementById("demo").innerHTML = "Fout, het was een C";}
+	else if (random == 13) {document.getElementById("demo").innerHTML = "Goed, het was een D";}
+	setTimeout(() => {
+	newrandom = Math.floor(Math.random() * 13) + 1;
+	while (newrandom == random)	{
+		newrandom = Math.floor(Math.random() * 13) + 1;
+		}
+	random = newrandom;
+	document.getElementById("img").src=random + ".jpg";
+	document.getElementById("noot").src=random + ".mp3";
+		}, 2000);
+	    }
+    function checke(a) {
+	if (random == 3) {document.getElementById("demo").innerHTML = "Fout, het was een A";}
+	else if (random == 10) {document.getElementById("demo").innerHTML = "Fout, het was een A";}
+	else if (random == 4) {document.getElementById("demo").innerHTML = "Fout, het was een B";}
+	else if (random == 5) {document.getElementById("demo").innerHTML = "Fout, het was een C";}
+	else if (random == 6) {document.getElementById("demo").innerHTML = "Fout, het was een D";}
+	else if (random == 7) {document.getElementById("demo").innerHTML = "Goed, het was een E";}
+	else if (random == 8) {document.getElementById("demo").innerHTML = "Fout, het was een F";}
+	else if (random == 9) {document.getElementById("demo").innerHTML = "Fout, het was een G";}
+	else if (random == 1) {document.getElementById("demo").innerHTML = "Fout, het was een F";}
+	else if (random == 2) {document.getElementById("demo").innerHTML = "Fout, het was een G";}
+	else if (random == 11) {document.getElementById("demo").innerHTML = "Fout, het was een B";}
+	else if (random == 12) {document.getElementById("demo").innerHTML = "Fout, het was een C";}
+	else if (random == 13) {document.getElementById("demo").innerHTML = "Fout, het was een D";}
+	setTimeout(() => {
+	newrandom = Math.floor(Math.random() * 13) + 1;
+	while (newrandom == random)	{
+		newrandom = Math.floor(Math.random() * 13) + 1;
+		}
+	random = newrandom;
+	document.getElementById("img").src=random + ".jpg";
+	document.getElementById("noot").src=random + ".mp3";
+		}, 2000);
+	    }
+    function checkf(a) {
+	if (random == 3) {document.getElementById("demo").innerHTML = "Fout, het was een A";}
+	else if (random == 10) {document.getElementById("demo").innerHTML = "Fout, het was een A";}
+	else if (random == 4) {document.getElementById("demo").innerHTML = "Fout, het was een B";}
+	else if (random == 5) {document.getElementById("demo").innerHTML = "Fout, het was een C";}
+	else if (random == 6) {document.getElementById("demo").innerHTML = "Fout, het was een D";}
+	else if (random == 7) {document.getElementById("demo").innerHTML = "Fout, het was een E";}
+	else if (random == 8) {document.getElementById("demo").innerHTML = "Goed, het was een F";}
+	else if (random == 9) {document.getElementById("demo").innerHTML = "Fout, het was een G";}
+	else if (random == 1) {document.getElementById("demo").innerHTML = "Goed, het was een F";}
+	else if (random == 2) {document.getElementById("demo").innerHTML = "Fout, het was een G";}
+	else if (random == 11) {document.getElementById("demo").innerHTML = "Fout, het was een B";}
+	else if (random == 12) {document.getElementById("demo").innerHTML = "Fout, het was een C";}
+	else if (random == 13) {document.getElementById("demo").innerHTML = "Fout, het was een D";}
+	setTimeout(() => {
+	newrandom = Math.floor(Math.random() * 13) + 1;
+	while (newrandom == random)	{
+		newrandom = Math.floor(Math.random() * 13) + 1;
+		}
+	random = newrandom;
+	document.getElementById("img").src=random + ".jpg";
+	document.getElementById("noot").src=random + ".mp3";
+		}, 2000);
+	    }
+    function checkg(a) {
+	if (random == 3) {document.getElementById("demo").innerHTML = "Fout, het was een A";}
+	else if (random == 10) {document.getElementById("demo").innerHTML = "Fout, het was een A";}
+	else if (random == 4) {document.getElementById("demo").innerHTML = "Fout, het was een B";}
+	else if (random == 5) {document.getElementById("demo").innerHTML = "Fout, het was een C";}
+	else if (random == 6) {document.getElementById("demo").innerHTML = "Fout, het was een D";}
+	else if (random == 7) {document.getElementById("demo").innerHTML = "Fout, het was een E";}
+	else if (random == 8) {document.getElementById("demo").innerHTML = "Fout, het was een F";}
+	else if (random == 9) {document.getElementById("demo").innerHTML = "Goed, het was een G";}
+	else if (random == 1) {document.getElementById("demo").innerHTML = "Fout, het was een F";}
+	else if (random == 2) {document.getElementById("demo").innerHTML = "Goed, het was een G";}
+	else if (random == 11) {document.getElementById("demo").innerHTML = "Fout, het was een B";}
+	else if (random == 12) {document.getElementById("demo").innerHTML = "Fout, het was een C";}
+	else if (random == 13) {document.getElementById("demo").innerHTML = "Fout, het was een D";}
+	setTimeout(() => {
+	newrandom = Math.floor(Math.random() * 13) + 1;
+	while (newrandom == random)	{
+		newrandom = Math.floor(Math.random() * 13) + 1;
+		}
+	random = newrandom;
+	document.getElementById("img").src=random + ".jpg";
+	document.getElementById("noot").src=random + ".mp3";
+		}, 2000);
+	    }
+</script>
+<div class="center">
+<audio id="noot" controls autoplay>
+  <source src="">
+</audio>
+<div id="main_img">
+    <img id="img" src="">
+</div>
+<p id="demo"></p>
+<button type="button" class="button button1" onclick=checka()>A</button>
+<button type="button" class="button button1" onclick=checkb()>B</button>
+<button type="button" class="button button1" onclick=checkc()>C</button>
+<button type="button" class="button button1" onclick=checkd()>D</button>
+<button type="button" class="button button1" onclick=checke()>E</button>
+<button type="button" class="button button1" onclick=checkf()>F</button>
+<button type="button" class="button button1" onclick=checkg()>G</button>
+</div>
+</body>
+</html> 
